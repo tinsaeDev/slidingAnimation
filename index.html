@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Relative Positining</title>
+
+	<style type="text/css">
+		
+
+		body{
+			height: 100vh;
+			width: 100vw;
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.rod{
+
+			min-height: 40px;
+			width: 320px;
+
+			color: white;
+			font-family: ubuntu;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			font-weight: bold;
+			border-radius: 48px;
+
+			animation: rod 1s linear forwards ;
+
+
+		}
+
+		.rod, .rod *{
+			user-select: none;
+		}
+		.rod .text{
+			display: flex;
+			width: 100%;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.rod .ball-wrapper{
+			width: 48px;
+			height: 48px;
+		}
+
+		.rod .ball{
+			position: relative;
+			height: 48px;
+			width: 48px;
+			border-radius: 40px;
+
+			background-color: #00ac50;
+			display: flex;
+
+			justify-content: center;
+			align-items: center;
+
+			right: 0px;
+			font-size: 40px;	
+
+			background-image: url("fast-forward.png");
+			background-position: center;
+
+			animation: ethio 1s linear forwards  ;
+		
+			
+			}
+
+
+		@keyframes identifier {
+			
+		}
+
+		@keyframes rod{
+			
+
+			0%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,100%));
+			}
+		
+			2%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,99%));
+			}
+			4%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,98%));
+			}
+			6%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,97%));
+			}
+			8%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,96%));
+			}
+			10%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,95%));
+			}
+			12%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,94%));
+			}
+			14%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,93%));
+			}
+			16%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,92%));
+			}
+			18%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,91%));
+			}
+			20%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,90%));
+			}
+			22%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,89%));
+			}
+			24%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,88%));
+			}
+			26%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,87%));
+
+			}
+			28%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,86%));
+			}
+			30%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,85%));
+			}
+			32%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,84%));
+			}
+			34%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,83%));
+			}
+			36%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,82%));
+			}
+			38%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,81%));
+			}
+			40%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,80%));
+			}
+			42%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,79%));
+			}
+			44%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,78%));
+			}
+			46%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,77%));
+			}
+			48%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,76%));
+			}
+			50%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,75%));
+			}
+			54%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,74%));
+			}
+			56%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,73%));
+			}
+			58%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,72%));
+			}
+			60%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,71%));
+			}
+			62%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,70%));
+			}
+			64%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,69%));
+			}
+			66%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,68%));
+			}
+			68%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,67%));
+			}
+			70%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,66%));
+			}
+			72%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,65%));
+			}
+			74%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,64%));
+			}
+			76%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,63%));
+			}
+			78%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,62%));
+			}
+			80%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,61%));
+			}
+			82%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,60%));
+			}
+			83%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,59%));
+			}
+			84%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,58%));
+			}
+			86%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,57%));
+			}
+			88%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,56%));
+			}
+			90%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,55%));
+			}
+			92%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,54%));
+			}
+			94%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,53%));
+			}
+			95%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,52%));
+			}
+			98%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,51%));
+			}
+			100%{
+				background-image: linear-gradient(45deg,#8dc73f,hsl(93.5, 51%,50%));
+			}
+			
+
+		}
+
+
+
+
+		@keyframes ethio{
+			
+			0%{
+
+				right: 200px; 
+			}
+
+			100%{
+				right: 0px;
+
+			}
+		}
+
+
+	</style>
+
+</head>
+<body>
+
+
+	<p class="rod">
+
+		<span class="text"> Bringing new Possinlities </span>
+		<span class="ball-wrapper">
+			<span class="ball">  </span>
+		</span>
+
+	</p>
+
+</body>
+</html>
